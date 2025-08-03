@@ -445,7 +445,7 @@ internal class ShowCropAndBarrelTime : IDisposable
         entries.Add($"{cropName}: {daysLeftStr}");
 
         string waterStatus = hoeDirt.state.Value == 1 ? I18n.Watered() : I18n.NotWatered();
-        entries.Add(waterStatus);
+        //entries.Add(waterStatus);
 
         if (!string.IsNullOrEmpty(fertilizerStr))
         {
